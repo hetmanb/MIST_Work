@@ -1,0 +1,22 @@
+Marker Name	Test Name	Test Type	Forward Primer	Reverse Primer	Amplicon Size (bp)	Amplicon Range Factor (e.g. 0.1)	Allelic Database Filename	Repeat Size (bp)
+aspA 	eMLST	1			-1	0	aspA.fasta	0
+fadk 	eMLST	1			-1	0	fadk .fasta	0
+fasd 	eMLST	1			-1	0	fasd .fasta	0
+fdapE 	eMLST	1			-1	0	fdapE .fasta	0
+fddlA 	eMLST	1			-1	0	fddlA .fasta	0
+feftS 	eMLST	1			-1	0	feftS .fasta	0
+ffumC 	eMLST	1			-1	0	ffumC .fasta	0
+filvD 	eMLST	1			-1	0	filvD .fasta	0
+flepP 	eMLST	1			-1	0	flepP .fasta	0
+fmdh 	eMLST	1			-1	0	fmdh .fasta	0
+fmutY 	eMLST	1			-1	0	fmutY .fasta	0
+fnuoH 	eMLST	1			-1	0	fnuoH .fasta	0
+fpgi 	eMLST	1			-1	0	fpgi .fasta	0
+ftpi 	eMLST	1			-1	0	ftpi .fasta	0
+fyphC 	eMLST	1			-1	0	fyphC .fasta	0
+glnA 	eMLST	1			-1	0	glnA .fasta	0
+gltA 	eMLST	1			-1	0	gltA .fasta	0
+glyA 	eMLST	1			-1	0	glyA .fasta	0
+pgm 	eMLST	1			-1	0	pgm .fasta	0
+tkt 	eMLST	1			-1	0	tkt .fasta	0
+uncA 	eMLST	1			-1	0	uncA .fasta	0

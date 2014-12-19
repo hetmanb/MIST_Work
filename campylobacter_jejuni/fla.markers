@@ -1,0 +1,2 @@
+Marker Name	Test Name	Test Type	Forward Primer	Reverse Primer	Amplicon Size (bp)	Amplicon Range Factor (e.g. 0.1)	Allelic Database Filename	Repeat Size (bp)
+flaA	fla	1			-1	0	fla.fasta	0

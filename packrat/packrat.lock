@@ -1,0 +1,90 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.1.1
+RVersion: 3.1.2
+Repos: CRAN=http://cran.rstudio.com,
+    BioCsoft=http://bioconductor.org/packages/2.14/bioc,
+    BioCann=http://bioconductor.org/packages/2.14/data/annotation,
+    BioCexp=http://bioconductor.org/packages/2.14/data/experiment,
+    BioCextra=http://bioconductor.org/packages/2.14/extra
+
+Package: ape
+Source: CRAN
+Version: 3.2
+Hash: 9fa1d7d5c26cba2496c5f3436f49dcd3
+
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+Hash: cb26464a8321628636b547518994c931
+
+Package: caTools
+Source: CRAN
+Version: 1.17.1
+Hash: bb5fdc266f716b8a289a4f92007d53e3
+Requires: bitops
+
+Package: dendextend
+Source: CRAN
+Version: 0.17.5
+Hash: b2ba71d5ff20a58b6800d4bb4435eb3b
+Requires: magrittr, whisker
+
+Package: gdata
+Source: CRAN
+Version: 2.13.3
+Hash: fa67facdc23542b4056b3a50b5a0fb3c
+Requires: gtools
+
+Package: gplots
+Source: CRAN
+Version: 2.15.0
+Hash: b47d43c2d1a551f94bdfb7eaba13df1a
+Requires: caTools, gdata, gtools
+
+Package: gtools
+Source: CRAN
+Version: 3.4.1
+Hash: e4c2510a4ba86b5826f05d9f3639cb13
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+Hash: 38d492cf072bc9f3c73bda2aee3d0e23
+
+Package: packrat
+Source: CRAN
+Version: 0.4.1-1
+Hash: 5716097644904b9c1b4be2692de16005
+
+Package: plyr
+Source: CRAN
+Version: 1.8.1
+Hash: 6a287219196e18bc6261dc11b41b1ca0
+Requires: Rcpp
+
+Package: Rcpp
+Source: CRAN
+Version: 0.11.3
+Hash: d9cc0a13885961b2d004cf73b0fb68dd
+
+Package: reshape
+Source: CRAN
+Version: 0.8.5
+Hash: 3a8bcdf002df52627d35dfab189711f4
+Requires: plyr
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.1
+Hash: 21b63c5bb8ff2ef850ea40a4cb21d250
+Requires: plyr, Rcpp, stringr
+
+Package: stringr
+Source: CRAN
+Version: 0.6.2
+Hash: cdde0cfa0f52cffeaca23a11a3899779
+
+Package: whisker
+Source: CRAN
+Version: 0.3-2
+Hash: 186ab2937fec1694c8a63009a2389c4e

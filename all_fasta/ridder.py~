@@ -1,0 +1,11 @@
+import os
+
+path = os.getcwd()
+def getridder(path):
+    for f in os.listdir(path):
+        if '.py''.txt' not in f:
+            oldname = f[0:-1]
+            #print oldname
+            os.rename(f, oldname)
+
+getridder(path)

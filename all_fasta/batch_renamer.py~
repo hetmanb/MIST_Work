@@ -1,0 +1,53 @@
+import os
+
+path = os.getcwd()
+d = {}
+
+with open('file.txt') as infile:
+    d = dict(x.split(None, 1) for x in infile if x.strip())
+
+
+def renamedir(path):
+    for f in os.listdir(path):
+        oldname = f.strip()
+
+        if oldname in d:
+            #print os.path.join(path, d[oldname])
+            print os.path.join(path, oldname) + ' has been renamed to: ' + os.path.join(path, d[oldname])
+            #os.rename(os.path.join(path, oldname), os.path.join(path, d[oldname]))
+            os.system("mv" + " " + os.path.join(path, oldname) + " " + os.path.join(path, d[oldname]))
+        else:
+            print oldname + " doesnt work dammit"
+
+
+renamedir(path)
+
+
+
+
+
+
+
+    # print os.listdir('.')
+    # for filename in os.listdir('.'):
+    #     newname = d[filename]
+    #     print newname
+    # if filename in d:
+    #     os.rename(filename, d[filename])
+    # else:
+    #     print 'error' + ' in renaming the file: ' + filename
+
+
+    # for filename in os.listdir('.'):
+    #     oldname = str(filename)
+    #     if oldname in d:
+    #         print d[oldname]
+    # if str(filename) in d:
+    #     print filename, d[filename]
+    #     os.rename(filename, d[filename])
+    # else:
+    #     print "Can't rename " + filename
+    # for f in os.listdir('.'):
+    #     oldname = f.split()
+    #     newname = d[oldname]
+    #     print newname
